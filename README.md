@@ -148,57 +148,46 @@ python networksecurity/pipeline/batch_prediction.py
 
 Predictions are generated using the trained model and preprocessor.
 
-Why This Project Is Not Deployed
+---
 
-This project intentionally focuses on:
+## Why This Project Is Not Deployed
 
-ML pipeline design
+This project is intentionally scoped to focus on **core machine learning engineering principles**, rather than production deployment.
 
-Experiment tracking
+### Primary Focus Areas
+- **ML pipeline design**
+- **Experiment tracking**
+- **Offline training and batch inference**
 
-Offline training and batch inference
+### Reason for Excluding Deployment
+Deployment was deliberately kept out of scope to prioritize:
+- **Clean and modular architecture**
+- **Reproducibility of experiments**
+- **Strong ML engineering fundamentals**
 
-Deployment was kept out of scope to prioritize:
+The trained model and pipeline are deployment-ready and can be deployed in the future if required.
 
-Clean architecture
+---
 
-Reproducibility
+## Tech Stack
+- **Python**
+- **Pandas**, **NumPy**
+- **Scikit-learn**
+- **MLflow**
+- **DAGsHub**
 
-ML engineering fundamentals
 
-The trained model can be deployed later if required.
+## Future Improvements
+- **Hyperparameter optimization** to further improve model performance
+- **Model explainability** using SHAP or LIME for interpretability
+- **Online inference API** for real-time predictions
+- **CI/CD pipelines** for automated training and validation
+- **Model monitoring and drift detection** to ensure long-term reliability
 
-Tech Stack
+---
 
-Python
-
-Pandas, NumPy
-
-Scikit-learn
-
-MLflow
-
-DAGsHub
-
-MongoDB
-
-FastAPI (local inference only)
-
-Future Improvements
-
-Hyperparameter optimization
-
-Model explainability (SHAP, LIME)
-
-Online inference API
-
-CI/CD for ML pipelines
-
-Model monitoring and drift detection
-
-Author
-
-Aditya Singh
+## Author
+**Aditya Singh**  
 B.Tech Student | Machine Learning & Data Structures
 
 
